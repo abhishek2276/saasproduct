@@ -1,0 +1,21 @@
+.Agent {
+    margin: 20px auto;
+    padding: 10px; /* Decreased padding */
+    max-width: 1000px; /* Decreased max-width */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 20px; /* Slightly reduced font size */
+    margin-bottom: 10px; /* Decreased margin */
+  }
+  
+  /* Decreased font size and input sizes for form elements */
+  Form.Control {
+    font-size: 14px;
+    padding: 8px 12px; /* Adjust padding as needed */
+    margin: 3px 0; /* Adjust margin as needed */
+  }

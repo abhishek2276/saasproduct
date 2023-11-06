@@ -1,0 +1,379 @@
+body {
+      
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 10px;
+  }
+
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .navbar-actions {
+    margin-right: 20px;
+  }
+
+  .navbar-actions a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+ 
+
+  .popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+transition: right 0.3s ease-in-out;
+  }
+
+  .popup {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    overflow-y: auto;
+     height: 70%;
+  }
+  
+  .popup-container1 {
+    position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  }
+
+  .popup1 {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  .hii-2{
+    text-align: center;
+  }
+  .popup-container2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+  .popup2 {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  .popup h2 {
+    margin-bottom: 20px;
+  }
+  .popup1 h2 {
+    margin-bottom: 20px;
+  }
+
+  .popup1 input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .popup input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+ 
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 10px;
+  }
+  .btn{
+    background-color: wheat;
+    border-radius: 20px;
+  }
+ 
+.about-us   {
+  position: absolute;
+  top: 120px; 
+  border: 10px;
+  border-radius: 10px;
+  padding: 7px;
+  background-color: rgb(210, 210, 187);
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.our-services {
+  left: 20px;
+}
+
+.about-us {
+  right: 20px; 
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 15px;
+  transition: background-color 0.3s;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e9d7d7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-btn1 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 15px;
+  
+  transition: background-color 0.3s;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #e9d7d7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.about-us:hover .dropdown-content {
+  display: block;
+}
+.our-services:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.otp-input {
+  display: flex;
+  align-items: center;
+
+}
+.otp-input input{
+width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 35px;
+}
+
+#sendOtpButton {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-left: 10px; 
+}
+
+
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .popup-show {
+right: 0; 
+}
+.chat-icon {
+position: fixed;
+bottom: 30px;
+right: 40px;
+z-index: 1000;
+cursor: pointer;
+}
+
+.popup5 {
+display: none;
+position: absolute;
+bottom: 40px;
+right: 0;
+transform: translateX(100%);
+transition: transform 0.3s ease-in-out;
+}
+
+.popup5.active {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+transform: translateX(0);
+}
+.bi-chat-text{
+color: white;
+background-color: rgb(255, 145, 0);
+border-radius: 30px;
+box-shadow: 10px 0px 30px 0px;
+
+}
+.menu{
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 20%;
+left: 3%;
+position: fixed;
+transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.option{
+border: solid;
+margin-bottom: 10%;
+padding: 14px;
+background-color:  rgb(210, 210, 187);
+border-radius: 15%;
+border-color:  rgb(210, 210, 187);
+}
+.option a{
+text-decoration: none;
+color: black;
+}
+.option {
+margin-bottom: 10px;
+cursor: pointer;
+transition: color 0.3s ease-in-out;
+}
+
+.option:hover {
+color: #ce636c;
+}
+.popup5 a {
+margin: 5px 0;
+}
+.btn-warning a{
+text-decoration: none;
+color: black;
+}
+.buttons-container1 {
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+margin-top:80px ;
+height: 100vh;
+}
+
+.numbered-button1 {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.button-number {
+font-size: 18px;
+margin-right: 10px;
+font-weight: bold;
+}
+.but{
+  padding: 10px 20px;
+background-color: rgb(210, 210, 187);
+color: rgb(11, 11, 11);
+border: none;
+cursor: pointer;
+border-radius: 5px;
+min-width: 200px;
+transition: background-color 0.3s ease-in-out;
+}
+
+.btn-hello button{
+padding: 5px 5px;
+background-color: rgb(231, 231, 109);
+color: rgb(11, 11, 11);
+border:none;
+cursor: pointer;
+border-radius: 5px;
+min-width: 70px;
+font-size: 18px;
+}
+button{
+  border: none;
+}
+
+@media (max-width: 767px) {
+body{
+  background-size: cover;
+  background-position: center;
+}
+}

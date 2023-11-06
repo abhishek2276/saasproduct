@@ -1,0 +1,53 @@
+.grid-container-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  
+    padding: 10px;
+  }
+  .hello-1{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color:white;
+  }
+  .hii-1{
+    background-color: #f9f7f7;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        width: 700px;
+       
+      }
+      
+      input {
+        width: 100%;
+        padding: 7px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      
+  }
+  select{
+    width: 100%;
+      padding: 7px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+.flex button{
+    background-color: rgb(49, 154, 121);
+    padding: 7px;
+    min-width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+

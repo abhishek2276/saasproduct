@@ -1,0 +1,15 @@
+/* NewDriver.css */
+
+.custom-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hide label numbering for mobile view */
+  @media (max-width: 768px) {
+    .custom-container label::before {
+      display: none;
+    }
+  }
+  

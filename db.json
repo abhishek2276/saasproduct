@@ -1,0 +1,31 @@
+{
+  "login":[
+  {
+      "phonenumber": 123456789,
+      "password": "abhiabhi",
+      "name": "abhi",
+      "age": 21,
+      "email": "abhi@gmail.com",
+      "address": "san",
+      "user_type": "admin"
+  },
+  {
+      "phonenumber": 123456788,
+      "password": "abhiabhi",
+      "name": "abhishek",
+      "age": 22,
+      "email": "abhikand@gmail.com",
+      "address": "sango",
+      "user_type": "admin"
+  },
+  {
+      "phonenumber": 123456787,
+      "password": "abhiabhi",
+      "name": "khan",
+      "age": 24,
+      "email": "abhikhan@gmail.com",
+      "address": "samm",
+      "user_type": "user"
+  }
+]
+}
